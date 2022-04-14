@@ -1,0 +1,265 @@
+.eh-video-found {
+    border: 5px solid #730f85;
+    border-right: 5px solid #00dff8;
+    border-bottom: 5px solid #00dff8;
+    border-radius: 25px 25px 25px 25px;
+    padding: 10px;
+    position: relative;
+   color: #fff;
+            
+}
+
+
+@-webkit-keyframes eh-video-found-animation {
+    0%, 49% {
+        background-color: transparent;
+    }
+    50%, 100% {
+        background-color: transparent;
+    }
+}
+canvas, caption, center, cite, code, dd, del, dfn, div, dl, dt, em, embed, fieldset, font, form, h1, h2, h3, h4,  var {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: #f800fa;
+}
+h5, h6, hr, i, iframe, img, ins, kbd, label, legend, li, menu, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, u, ul, var {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: #00e0f9;
+}
+ytd-searchbox[system-icons] #search-icon-legacy.ytd-searchbox yt-icon.ytd-searchbox {
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    color: #f800fa;
+
+    border-radius: 25px 25px 25px 25px;
+}
+button.yt-icon-button > yt-icon {
+    background-color: transparent;
+    color: #00dff8;
+}
+#container.ytd-searchbox input.ytd-searchbox {
+      background-color: transparent;
+    color: #f800fa;
+}
+#search-input.ytd-searchbox-spt input {
+    -webkit-appearance: none;
+    -webkit-font-smoothing: antialiased;
+    background-color: #730f85;
+    color: #730f85;
+    border: none;
+    box-shadow: #730f85;
+}
+.eh-danger-text{
+    color:#730f85;
+    font-weight: 800;
+}
+.eh-task-status {
+    margin-bottom: 15px;
+    border: 2px solid #730f85;
+    border-right: 2px solid #00dff8;
+    border-bottom: 2px solid #00dff8;
+    border-radius: 25px 25px 25px 25px;
+    padding: 5px;
+    font-family: 'Open Sans', 'Arial';
+}
+
+.eh-task-header {
+    padding-bottom: 5px;
+    text-align: center;
+    border-bottom: 1px solid #730f85;
+     color: #fff;
+           
+}
+
+.eh-task-header img {
+    width: 150px;
+}
+
+.eh-task {
+    padding: 15px 0px;
+
+}
+
+.eh-task > div {
+    float: left;
+}
+
+.eh-task:after {
+    content: ' ';
+    clear: both; 
+    display:block;
+}
+
+.eh-task-text {
+    font-size: 16px;
+    line-height: 36px;
+    width: calc(100% - 45px);
+    color: #fff;
+}
+
+.eh-ext-banner {
+    font-size: 12px;
+}
+
+.eh-task-status-icon {
+background: transparent;color: #323232;
+    font-size: 30px;
+    width: 45px;
+    text-align: center;
+}
+
+.eh-task-completed .eh-task-status-icon {
+    color: #730f85;
+}
+
+.eh-task-info {
+    font-size: 13px;
+    margin-left: 45px;
+    clear: both;
+    width: calc(100% - 45px);
+   color: #fff;
+}
+
+.eh-task-info.eh-time-left {
+    font-size: 16px;
+    font-weight: 600;
+    color: #00dff8;
+}
+
+.eh-task-info.eh-time-left.few-sec-left {
+    color: #f800fa;
+}
+
+.eh-task-status .commentInfo input {
+    width: 90%;
+    padding: 10px;
+    font-size: 1.35rem;
+    border-radius: 3px;
+    border: 1px solid #730f85;
+}
+
+.eh-task-status .commentInfo button {
+    padding: 8px 15px;
+    background: #730f85;
+    color: #fff;
+    border-radius: 4px;
+    border: 0;
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: none;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+#primary.ytd-watch-flexy #subscribe-button,
+#primary.ytd-watch-flexy #comments ytd-comment-simplebox-renderer {
+    position: relative;
+}
+
+/* requi#730f85 to avoid skip ad message getting cropped inside player area */
+.html5-video-player.ad-showing {
+    overflow: initial;
+}
+
+.eh-yt-highlight {
+    position: absolute;
+    top: 40px;
+    left: -35px;
+    z-index: 100000;
+}
+
+.eh-yt-highlight#likeBtnHighlight {
+    left: -90px;
+}
+
+.eh-yt-highlight#dislikeBtnHighlight {
+    left: -34px;
+}
+
+.eh-yt-highlight#subscribeBtnHighlight {
+    width: 350px;
+    left: -115px;
+}
+
+.eh-yt-highlight#postCommentHighlight {
+    left: 110px;
+    top: 25px;
+}
+
+.eh-yt-highlight#postReplyHighlight {
+    left: -134px;
+    top: 40px;
+}
+
+.eh-yt-highlight#likeCommentHighlight {
+    left: -80px;
+    top: 40px;
+}
+
+ytd-item-section-renderer.hidden-comments#sections {
+    opacity:0;
+    margin-left:-4000px;
+}
+
+.eh-yt-highlight#clickVidHighlight {
+    top: 155px;
+    left: calc(50% - 100px);
+}
+
+.eh-yt-highlight#skipAdHighlight {
+    left: auto;
+    top: auto;
+    bottom: -15px;
+    right: -15px;
+    box-shadow: none !important;
+    text-shadow: none;
+}
+
+.eh-yt-highlight .eh-arrow {
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    color: #730f85;
+    -webkit-animation: eh-yt-highlight-arrow-animation 1s infinite;  /* Safari 4+ */
+    -moz-animation: eh-yt-highlight-arrow-animation 1s infinite;  /* Fx 5+ */
+    -o-animation: eh-yt-highlight-arrow-animation 1s infinite;  /* Opera 12+ */
+    animation: eh-yt-highlight-arrow-animation 1s infinite;
+}
+
+.eh-yt-highlight .eh-text {
+    padding: 5px;
+    background-color: #730f85;
+    border-radius: 3px;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: -2px;
+    -webkit-animation: eh-yt-highlight-text-animation 1s infinite;  /* Safari 4+ */
+    -moz-animation: eh-yt-highlight-text-animation 1s infinite;  /* Fx 5+ */
+    -o-animation: eh-yt-highlight-text-animation 1s infinite;  /* Opera 12+ */
+    animation: eh-yt-highlight-text-animation 1s infinite;
+}
+
+@-webkit-keyframes eh-yt-highlight-arrow-animation {
+    0%, 49% {
+        color: #924caf;
+    }
+    50%, 100% {
+        color: #730f85;
+    }
+}
+
+@-webkit-keyframes eh-yt-highlight-text-animation {
+    0%, 49% {
+        background-color: transparent;
+    }
+    50%, 100% {
+        background-color: transparent;
+    }
+}
